@@ -8,3 +8,52 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
+.display-header {
+  width: 600px;
+  margin-bottom: 8px;
+  font-size: 70px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.2px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.07);
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    145deg,
+    #fff 65%,
+    rgba(255, 255, 255, 0.43)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+}
+.sectionHero {
+  height: 100vh;
+  min-height: 1280px;
+  margin-top: 112px;
+  position: relative;
+}
+
+.solarSystem {
+  z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  padding-bottom: 0;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+@media screen and (max-width: 650px) {
+  .display-header {
+    width: 350px;
+    font-size: 45px;
+  }
+  .solarSystem {
+    margin-top: 100px;
+  }
+}
