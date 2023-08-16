@@ -67,6 +67,7 @@ body {
 }
 .w-inline-block {
   max-width: 100%;
+  max-height: 100%;
   display: inline-block;
 }
 .button-primary-icon {
@@ -98,6 +99,7 @@ img {
   position: static;
   vertical-align: middle;
   border: 0;
+  object-fit: contain;
   overflow-clip-margin: content-box;
   overflow: clip;
 }
@@ -136,7 +138,6 @@ img {
   position: relative;
 }
 .galaxy-logo-circle.galaxy-circle {
-  background-image: linear-gradient(#fff, #cfcfcf);
   border-radius: 100%;
 }
 .galaxy-logo-circle {
@@ -148,11 +149,11 @@ img {
 }
 .d-cutout {
   z-index: 500;
-  width: 72px;
-  height: 140px;
+  width: 80px;
+  height: 100px;
   position: absolute;
   top: 24px;
-  left: 92px;
+  left: 32px;
 }
 .mask.right {
   width: 160px;
@@ -177,7 +178,7 @@ img {
 .galaxy-logo-circle.galaxy-circle.back {
   z-index: 0;
   box-shadow: none;
-  background-color: #656566;
+
   background-image: none;
   border-radius: 100%;
   position: absolute;
@@ -185,7 +186,6 @@ img {
 }
 
 .galaxy-logo-circle.galaxy-circle {
-  background-image: linear-gradient(#fff, #cfcfcf);
   border-radius: 100%;
 }
 
